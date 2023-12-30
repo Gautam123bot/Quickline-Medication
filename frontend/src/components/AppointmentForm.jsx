@@ -9,8 +9,8 @@ function sendSOS() {
   var c = document.getElementById("email").value;
   var d = document.getElementById("gender").value;
   // Replace these values with your Twilio credentials
-  const accountSid = "ACe08bcf70e60831a7fe8235dbecf1afda";
-  const authToken = "4d1452512756a4cb4f743be00179da86";
+  const accountSid = import.meta.env.VITE_TWILIO_SID;
+  const authToken = import.meta.VITE_TWILIO_AUTH_TOKEN;
   const phoneNumber = import.meta.env.VITE_TO_PHONE_NUMBER; // Replace with the actual phone number
 
   const message = `SOS! This is an emergency message. Name - ${a} Phone Number - ${b} Email Id - ${c} Gender - ${d}`;
