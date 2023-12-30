@@ -38,7 +38,7 @@ function Hero() {
         <div className="text-section">
           <p className="text-headline">❤️ Health comes first</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+            Find your Ambulance within a few moment
           </h2>
           <p className="text-descritpion">
             Talk to online doctors and get medical advice, online prescriptions,
@@ -50,7 +50,7 @@ function Hero() {
             type="button"
             onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faCalendarCheck} /> Book Ambulance
           </button>
           <div className="text-stats">
             <div className="text-stats-container">
