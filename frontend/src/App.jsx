@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Home from "./Pages/Home";
+import Loginpage from "./pages/Loginpage";
 import Legal from "./Pages/Legal";
 import NotFound from "./Pages/NotFound";
 import Appointment from "./Pages/Appointment";
@@ -13,7 +14,8 @@ function App() {
     <>
       <Router path="/Health-Plus">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Loginpage />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="*" element={<NotFound />} />

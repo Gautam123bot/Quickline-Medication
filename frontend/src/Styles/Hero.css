@@ -1,10 +1,15 @@
 .hero-section {
-    padding: 32px;
+    padding: 100px 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    /* background: linear-gradient(to right, #ECF2FF, #FBFCFF); */
+}
+@media screen and (max-width: 600px){
+    .hero-section{
+        padding: 45px 45px;
+    }
 }
 /* Text section */
 .text-section {
@@ -12,6 +17,7 @@
     padding: 0 32px;
 }
 .text-headline {
+    margin-top: 40px;
     margin-bottom: 12px;
     color: rgb(77, 75, 75);
     font-family: 'Rubik', sans-serif;
@@ -41,7 +47,7 @@
     border: 1px solid transparent;
     border-radius: 28px;
     outline: transparent;
-    background-color: #1A8EFD !important;
+    background-color: #00bba5 !important;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: .8px;

@@ -52,7 +52,7 @@ function Hero() {
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Book Ambulance
           </button>
-          <div className="text-stats">
+          {/* <div className="text-stats">
             <div className="text-stats-container">
               <p>145k+</p>
               <p>Receive Patients</p>
@@ -67,11 +67,11 @@ function Hero() {
               <p>10+</p>
               <p>Years of Experience</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
+          <img className="hero-image1 h-auto max-w-full" src={Doctor} alt="Doctor" />
         </div>
       </div>
 

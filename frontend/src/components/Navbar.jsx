@@ -8,6 +8,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { faCommentDots } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import "../Styles/Navbar.css";
+import "../Styles/My.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -32,15 +33,18 @@ function Navbar() {
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
-        <Link to="/">
+        {/* <Link to="/">
           Health <span className="navbar-sign">+</span>
+        </Link> */}
+        <Link to="/">
+          <img className="mainlogo" src="/src/Assets/logo.png" alt="" />
         </Link>
       </h1>
 
       {/* Desktop */}
       <ul className="navbar-items">
         <li>
-          <Link to="/" className="navbar-links">
+          <Link to="/home" className="navbar-links">
             Home
           </Link>
         </li>

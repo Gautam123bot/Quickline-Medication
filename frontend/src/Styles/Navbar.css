@@ -1,10 +1,15 @@
 .navbar-section {
-    padding: 0 32px;
+    padding: 53px 53px 0px 188px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     background-color: white;
+}
+@media screen and (max-width: 600px){
+    .mainlogo{
+        margin-left: -160px;
+    }
 }
 .navbar-title a {
     color: #1A8EFD;
@@ -46,7 +51,7 @@
     border: 1px solid transparent;
     border-radius: 28px;
     outline: transparent;
-    background-color: #1A8EFD !important;
+    background-color: #00bba5 !important;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: .8px;
