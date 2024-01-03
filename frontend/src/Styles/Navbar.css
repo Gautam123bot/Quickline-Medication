@@ -39,7 +39,8 @@
 .navbar-links {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: bold;
     letter-spacing: .8px;
 }
 .navbar-links:hover {

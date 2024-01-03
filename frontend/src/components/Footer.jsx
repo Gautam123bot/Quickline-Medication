@@ -9,8 +9,8 @@ function Footer() {
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
-            <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+            <p className="ft-title flex gap-0 items-center">
+               <span className="ft-sign"><img src="/src/Assets/logo.png" alt="" /></span>Quickline Medication
             </p>
             <p className="ft-description">
               Talk to online doctors and get medical advice, online
@@ -86,12 +86,12 @@ function Footer() {
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2023-2024 Quickline Medication. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="https://www.linkedin.com/in/gautam-kumar-994a3123b/"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +125,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="https://twitter.com/GautamK60450019"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"

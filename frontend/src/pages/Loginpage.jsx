@@ -8,6 +8,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { auth } from "./firebase.config";
 import { Link } from "react-router-dom";
+import Locationallow from "../components/Locationallow";
 
 
 function Loginpage() {
@@ -68,7 +69,7 @@ function Loginpage() {
         <div id="recaptcha-container"></div>
         {
             !user ? (
-            <div className="w-80 flex flex-col gap-4 rounded-lg p-4">
+            <div className="flex flex-col gap-4 rounded-lg p-4 w-full">
             <h1 className="text-center loading-normal text-white font-medium text-3xl mb-6">
                 Welcome to <br /> CODE A PROGRAM
             </h1>
@@ -110,11 +111,8 @@ function Loginpage() {
             </div>
             ) : 
             (
-                <h2 className="text-center text-white font-medium text-2xl">
-                    Login success...
-                    <button><Link to="/home">Click here to continue...</Link></button>
-                </h2>
-
+                
+              <Locationallow />
             )
         }
       </div>

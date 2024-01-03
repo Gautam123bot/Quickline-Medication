@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { faCommentDots } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faTruckMedical } from '@fortawesome/free-solid-svg-icons'
 import "../Styles/Navbar.css";
 import "../Styles/My.css";
 import { Link } from "react-router-dom";
@@ -70,14 +71,17 @@ function Navbar() {
         </li>
       </ul>
 
+        <Link to="/ambulance">
       <button
         className="navbar-btn"
         type="button"
         disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
+        // onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+        <FontAwesomeIcon icon={faTruckMedical} /> 
+         Book your Ambulance here
       </button>
+      </Link>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
