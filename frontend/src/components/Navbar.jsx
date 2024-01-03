@@ -78,7 +78,7 @@ function Navbar() {
         disabled={isButtonDisabled}
         // onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faTruckMedical} /> 
+        <FontAwesomeIcon className="mr-2" icon={faTruckMedical} /> 
          Book your Ambulance here
       </button>
       </Link>

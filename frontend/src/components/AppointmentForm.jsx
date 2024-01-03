@@ -116,10 +116,10 @@ function AppointmentForm() {
   };
 
   return (
-    <div className="appointment-form-section">
-      <h1 className="legal-siteTitle">
-        <Link to="/">
-          Health <span className="legal-siteSign">+</span>
+    <div className="appointment-form-section bg-teal-500">
+      <h1 className="legal-siteTitle text-center flex items-center justify-center bg-teal-500">
+        <Link to="/home">
+          <img className="text-center w-28" src="/src/Assets/logo.png" alt="" />
         </Link>
       </h1>
 
@@ -144,7 +144,7 @@ function AppointmentForm() {
             )}
           </label>
 
-          <br />
+          {/* <br /> */}
           <label className="formlabel">
             Patient Phone Number:
             <input
@@ -160,7 +160,7 @@ function AppointmentForm() {
             )}
           </label>
 
-          <br />
+          {/* <br /> */}
           <label>
             Patient Email Id:
             <input
@@ -175,7 +175,7 @@ function AppointmentForm() {
             )}
           </label>
 
-          <br />
+          {/* <br /> */}
           <label className="formlabel">
             Patient Gender:
             <select

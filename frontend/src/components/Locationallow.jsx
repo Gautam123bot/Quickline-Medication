@@ -87,7 +87,7 @@ function Locationallow() {
 
       {/* <button onClick={toggleVisibility}>Toggle Visibility</button> */}
         {continuediv && (
-            <div className="bg-green-200 text-black text-3xl underline w-96">
+            <div className="bg-green-200 text-black text-3xl underline w-full mt-6 text-center">
                 <Link to="/home"> Click here to continue with our application...</Link>
             </div>
           )}

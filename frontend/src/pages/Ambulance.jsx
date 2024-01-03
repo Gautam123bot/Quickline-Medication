@@ -67,7 +67,7 @@ import {
       originRef.current.value = ''
       destiantionRef.current.value = ''
     }
-  
+    
     return (
       <Flex
         position='relative'
@@ -123,7 +123,7 @@ import {
   
             <ButtonGroup>
               <Button colorScheme='pink' type='submit' onClick={calculateRoute}>
-                Calculate Route
+                Search Your Ambulance
               </Button>
               <IconButton
                 aria-label='center back'
@@ -135,6 +135,7 @@ import {
           <HStack spacing={4} mt={4} justifyContent='space-between'>
             <Text>Distance: {distance} </Text>
             <Text>Expected Time: {duration} </Text>
+            <Text>Fare: {distance*10} </Text>
             <IconButton
               aria-label='center back'
               icon={<FaLocationArrow />}
