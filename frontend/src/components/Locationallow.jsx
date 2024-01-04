@@ -79,7 +79,7 @@ function Locationallow() {
           </div>
         </div>
 
-        <button className="underline">Detect your location</button>
+        <button>Detect your location</button>
         <br />
 
         {/* <div id="location_details"></div> */}
